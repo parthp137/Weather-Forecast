@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Now</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>Weather Forecast</h1>
+      <p>Get live weather by your location or city name</p>
+    </header>
+
+    <main>
+      <!-- Controls -->
+      <section class="controls">
+        <button id="loc-btn" class="btn primary-btn">Use My Location</button>
+
+        <div class="divider">or</div>
+
+        <form id="search-form" autocomplete="off">
+          <input
+            type="text"
+            id="city-input"
+            placeholder="Enter city name (e.g. Pune)"
+            required
+          />
+          <button type="submit" class="btn secondary-btn">Search</button>
+        </form>
+      </section>
+
+      <!-- Status / Error -->
+      <p id="status" class="status"></p>
+
+      <!-- Weather Card -->
+      <section id="weather-card" class="weather-card hidden">
+        <div class="weather-header">
+          <div>
+            <h2 id="city-name">City, Country</h2>
+            <p id="updated-time" class="updated-time"></p>
+          </div>
+          <div class="icon-circle">
+            <img id="weather-icon" alt="Weather icon" />
+          </div>
+        </div>
+
+        <div class="temp-section">
+          <h1 id="temp" class="temp-large">--°C</h1>
+          <p id="feels-like" class="feels-like">Feels like --°C</p>
+          <p id="description" class="description">Description</p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-box">
+            <span class="stat-icon">💧</span>
+            <span class="stat-label">Humidity</span>
+            <span id="humidity" class="stat-value">--%</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-icon">🌬️</span>
+            <span class="stat-label">Wind</span>
+            <span id="wind" class="stat-value">-- m/s</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-icon">📊</span>
+            <span class="stat-label">Pressure</span>
+            <span id="pressure" class="stat-value">-- hPa</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Powered by OpenWeatherMap API</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
