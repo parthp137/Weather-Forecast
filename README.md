@@ -1,4 +1,4 @@
-# Weather Now – Live Weather Web App
+# Weather Forecast – Live Weather Web App
 
 Weather Now is a front-end web project designed to display real-time weather data using the user’s current location or a manually entered city. It features a modern dark-themed interface with glassy cards, icons, and responsive styling. It is built using HTML, CSS, and JavaScript.
 
