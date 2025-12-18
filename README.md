@@ -1,9 +1,9 @@
-# Weather Forecast – Live Weather Web App
+# Weather-Forecast :– Live Weather Web App
 
 Weather Now is a front-end web project designed to display real-time weather data using the user’s current location or a manually entered city. It features a modern dark-themed interface with glassy cards, icons, and responsive styling. It is built using HTML, CSS, and JavaScript.
 
 ## Live Demo
-https://parthp137.github.io/PRODIGY_WD_05/
+https://parthp137.github.io/Weather-Forecast/
 
 ## Features
 
@@ -84,8 +84,8 @@ All interactions and updates are implemented using JavaScript.
 
 ### 1. Clone the repository:
 
-git clone https://github.com/your-username/WEATHER_NOW.git
-cd WEATHER_NOW
+git clone https://github.com/your-username/Weather-Forecast.git
+cd Weather-Forecast
 
 ### 2. Add your API key:
 - Open script.js and replace:
