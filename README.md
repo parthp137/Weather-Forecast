@@ -84,7 +84,7 @@ All interactions and updates are implemented using JavaScript.
 
 ### 1. Clone the repository:
 
-git clone https://github.com/your-username/Weather-Forecast.git
+git clone https://github.com/parthp137/Weather-Forecast.git
 cd Weather-Forecast
 
 ### 2. Add your API key:
