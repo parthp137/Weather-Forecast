@@ -1,5 +1,5 @@
 // Replace with your own OpenWeatherMap API key
-const API_KEY = "8d6d86874300a82bc8aba0ee7a126662";
+const API_KEY = "YOUR_API_KEY";
 
 const locBtn = document.getElementById("loc-btn");
 const searchForm = document.getElementById("search-form");
